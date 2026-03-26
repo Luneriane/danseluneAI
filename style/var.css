@@ -1,0 +1,20 @@
+:root {
+  --colorA: #190B02;
+  --colorB: #591202;
+  --colorC: #322D17;
+  --colorD: #A66124;
+  --colorE: #BFAE99;
+  --colorF: #6c5d4e;
+  --colorG: #190b0200;
+  --colorH: #2545a7;
+  --colorI: #7C3455;
+  --colorJ: #190b0275;
+  --colorK: #160400;
+  --colorL: #190b0281;
+  --colorM: #be97ab;
+  --titleFont: 'Eagle Lake', serif;
+  --textFont: 'Nunito Sans', sans-serif;
+  --smooth: 3px;
+  --border: 2px;
+  --transition-speed:0.4s cubic-bezier(0.25,0.8,0.25,1);
+}

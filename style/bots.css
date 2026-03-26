@@ -1,0 +1,56 @@
+#bots {
+  display: grid;
+  grid-template-areas: 'panel filters' 'panel bots';
+  grid-template-columns: 0 1fr;
+  grid-template-rows: auto 1fr;
+  width: 100%;
+  transition: grid-template-columns var(--transition-speed);
+}
+#bots.isOpen {
+  grid-template-columns: 400px 1fr;
+}
+
+
+#bots #panel {
+  position: sticky;
+  top: 0;
+  grid-area: panel;
+  align-self: start;
+  backdrop-filter: blur(5px);
+  border-right: var(--colorC) 0.1em dotted;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+#bots.isOpen #panel{
+  padding: var(--smooth);
+}
+#bots #panel h2 {
+  width: 100%;
+  font-family: var(--titleFont);
+  text-align: center;
+  color: var(--colorD);
+  text-shadow: -1px -1px 1px var(--colorA), 1px -1px 1px var(--colorA), -1px 1px 1px var(--colorA), 1px 1px 1px var(--colorA);
+}
+#bots #panel .panelImg {
+  position: relative;
+  width: 275px;
+  height: 275px;
+  margin: 20px 0;
+  border-radius: var(--smooth);
+}
+#bots #panel .tagline {
+  position: relative;
+  margin-top: 0;
+}
+#bot-description {
+  width: 100%;
+  margin-top: 20px;
+  text-shadow: -1px -1px 1px var(--colorA), 1px -1px 1px var(--colorA), -1px 1px 1px var(--colorA), 1px 1px 1px var(--colorA);
+}
+
+#bot-list {
+  grid-area: bots;
+}

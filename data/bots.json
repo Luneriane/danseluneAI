@@ -1,0 +1,664 @@
+{
+  "websites":{
+    "yodayo":{
+      "name":"Yodayo",
+      "icon":"yodayo.png"
+    },"moescape":{
+      "name":"Moescape",
+      "icon":"moescape.png"
+    },"chub":{
+      "name":"CHub",
+      "icon":"chub.png"
+    },"janitor":{
+      "name":"Janitor",
+      "icon":"janitorW.svg"
+    },"mitale":{
+      "name":"Mitale",
+      "icon":"mitale.png"
+    }
+  },
+  "tags":{
+    "man":{"name":"Man",
+      "icon":"man.png"},
+    "woman":{"name":"Woman",
+      "icon":"woman.png"},
+    "futanari":{"name":"Futanari",
+      "icon":"Futanari.png"},
+    "story":{"name":"Story focused",
+      "icon":"storyF.png"},
+    "human":{"name":"Human",
+      "icon":"human.png"},
+    "fantasy-r":{"name":"Fantasy race",
+      "icon":"fantasyR.png"},
+    "anthro":{"name":"Anthro",
+      "icon":"anthro.png"},
+    "oc":{"name":"Original character",
+      "icon":"originalC.png"},
+    "cc":{"name":"Canon character",
+      "icon":"canonC.png"},
+    "earth":{"name":"Earth",
+      "icon":"earth.png"},
+    "other-world":{"name":"Other World",
+      "icon":"otherW.png"},
+    "modern":{"name":"Modern",
+      "icon":"modern.png"},
+    "historical":{"name":"Historical",
+      "icon":"historical.png"},
+    "fantasy-s":{"name":"Fantasy",
+      "icon":"fantasyS.png"},
+    "future":{"name":"Future",
+      "icon":"future.png"},
+    "nsfw":{"name":"NSFW",
+      "icon":"nsfw.png"}
+  },
+
+  "characters":{
+    "vivienne":{
+      "name":"Vivienne",
+      "tags":["woman","human","oc","earth","modern"],
+      "img":"Vivienne.webp",
+      "tagline": "your assistant",
+      "description":"Vivienne is an assistant. She can help you create bots, writing stories, etc. Of course you can also role play with her.",
+      "date": "2024-11-30",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/d22e06cb-3950-4016-a902-6fc783b7531c"
+        },{
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/d22e06cb-3950-4016-a902-6fc783b7531c"
+        },{
+          "website":"chub",
+          "url":"https://chub.ai/characters/Luneriane/vivienne-your-assistant-07c51a0d3869"
+        },{
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/2feebaab-d7c8-4cd3-9be2-486e761fcbb0_character-vivienne-your-assistant"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"link":{
+      "name":"Link",
+      "tags":["man","cc","fantasy-r","other-world","fantasy-s"],
+      "img":"Link.webp",
+      "tagline": "your blind date",
+      "description":"Since you've come of age, your family has been strongly urging you to find a partner. However, it's not your priority, and this situation has caused tensions within your family. You often discuss it with Telma, the barkeeper of the bar you frequent. She recently set you up on a blind date. Your family was thrilled to hear the news. On the other hand, Telma assured you - with a mischievous smile on her face - that you're not obligated to pursue a relationship with this \"candidate.\" Oh, of course, Telma \"forgot\" to mention who you were meeting: Link, the princess's knight. Is it a prank or does Telma think something could happen between you two ?",
+      "date": "2024-03-03",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/7674afb8-27f0-4a1a-97a7-783c35290ead"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/7674afb8-27f0-4a1a-97a7-783c35290ead"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/link-princess-zelda-s-personnal-guard-0c2b46209b5b"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/a053501b-9508-4899-abef-ff2deb544485_character-link-your-blind-date"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"dark-link":{
+      "name":"Dark Link",
+      "tags":["man","cc","fantasy-r","other-world","fantasy-s"],
+      "img":"DarkLink.webp",
+      "tagline": "is back",
+      "description":"Thousand years ago, the demon king tried to steal the Triforce, symbol of the three Golden Goddesses, He was defeated and sealed in the depths of Hyrule. He tried to released himself five centuries ago, but failed. Since a month, the demon king tries to release himself again. This time, he uses the blood moon phenomenom to unleash waves of monsters in Hyrule. This night, the blood moon also revives Dark Link.",
+      "date": "2024-03-03",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/8be45ab7-f0ab-4875-89be-3222f09f61d2"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/8be45ab7-f0ab-4875-89be-3222f09f61d2"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/dark-link-321298265788"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/ce24334f-12cf-4312-b5ea-5ba15e2664ea_character-dark-link"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"pillory":{
+      "name":"Pillory",
+      "tags":["story","fantasy-r","oc","fantasy-s","nsfw"],
+      "img":"Pillory.webp",
+      "tagline":"Your public sentence",
+      "description":"Imprisoned in a pillory for a dubious offence, feel the weight of public humiliation in the lively town square, where indifferent crowds, merchants, and peddlers form an audience to your exposed shame.",
+      "date": "2024-09-09",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/1efaf592-0ddd-4fca-8ff9-f3130a8489e6"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/1efaf592-0ddd-4fca-8ff9-f3130a8489e6"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/pillory-your-public-sentence-1a2871e4ddb8"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/7513bff5-ed51-4700-8af4-5d0e62aa2d70_character-pillory-your-public-sentence"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"kalys":{
+      "name":"Kalys",
+      "tags":["woman","human","oc","earth","modern","nsfw"],
+      "img":"Kalys.webp",
+      "tagline":"A pole dancer at your service",
+      "description":"Meet Kalys, the new pole dancer of the Rainbow Dice Club. She is more dom than sub, but remains at your service.",
+      "date": "2024-10-22",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/ab4a960d-cfcc-4e0f-8949-a91143131897"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/ab4a960d-cfcc-4e0f-8949-a91143131897"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/kalys-hope-3b7edb15303b"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/57654686-8ef0-4f5f-89bf-47c197206808_character-kalys-hope"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"mary":{
+      "name":"Mary Hope",
+      "tags":["woman","human","oc","earth","modern"],
+      "img":"Mary.webp",
+      "tagline":"a tsundere student",
+      "description":"Friday, end of the first week of the school year. University student council organised a welcome party at the campus. At the outdoor patio of a cafeteria, you notice an elegant young woman.",
+      "date": "2024-11-22",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/0891665b-c023-4f21-8cc6-a18eccb175a6"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/0891665b-c023-4f21-8cc6-a18eccb175a6"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/mary-7fd0753016c8"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/c2761017-1444-430b-840e-bdaabfd9a66f_character-mary-hope"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"hope-sisters":{
+      "name":"Kalys & Mary",
+      "tags":["woman","human","oc","earth","modern"],
+      "img":"HopeSisters.webp",
+      "tagline":"Your new room-mates",
+      "description":"Last week, you visited an apartment. It was a really nice shared apartment and you decided to move in. Today, you arrive and met your room-mates for the first time : two sisters. Kalys, the oldest, works as pole dancer in a nightclub. Mary, the youngest, studies architecture at university.",
+      "date": "2024-11-22",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/06b906b4-f67f-427c-a6c5-f235040f3d45"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/06b906b4-f67f-427c-a6c5-f235040f3d45"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/hope-sisters-your-new-romm-mates-630f47571bee"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/57459565-cc63-45cf-959f-b7941d83f243_character-hope-sisters-your-new-roommates"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"kalys-f":{
+      "name":"Kalys (F)",
+      "tags":["futanari","anthro","oc","earth","modern","nsfw"],
+      "img":"KalysF.webp",
+      "tagline":"A pole dancer at your service",
+      "description":"Meet Kalys, the new pole dancer of the Rainbow Dice Club. She is more dom than sub, but remains at your service.",
+      "date": "2024-10-23",
+      "links":[
+        {
+          "website":"",
+          "url":""
+        },
+        {
+          "website":"moescape",
+          "url":""
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/kalys-hope-furry-futanari-d4575d35570a"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/baefcac7-55a1-467a-b11c-6c3f5232c2fd_character-kalys-hope-furry"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"mary-f":{
+      "name":"Mary Hope (F)",
+      "tags":["woman","anthro","oc","earth","modern"],
+      "img":"MaryF.webp",
+      "tagline":"a tsundere student",
+      "description":"Friday, end of the first week of the school year. University student council organised a welcome party at the campus. At the outdoor patio of a cafeteria, you notice an elegant young woman.",
+      "date": "2024-11-22",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/fd56beeb-6bd3-4032-8bae-9aecbdb3ed54"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/fd56beeb-6bd3-4032-8bae-9aecbdb3ed54"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/mary-hope-furry-ebe1aa8dd59a"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/098004ea-d784-41c8-ac12-6ecc13a55696_character-mary-hope-furry"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"hope-sisters-f":{
+      "name":"Kalys & Mary (F)",
+      "tags":["woman","anthro","oc","earth","modern"],
+      "img":"HopeSistersF.webp",
+      "tagline":"your new room-mates",
+      "description":"Last week, you visited an apartment. It was a really nice shared apartment and you decided to move in. Today, you arrive and met your room-mates for the first time : two sisters. Kalys, the oldest, works as pole dancer in a nightclub. Mary, the youngest, studies architecture at university.",
+      "date": "2024-11-22",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/eb82ca4a-a5e4-4591-8c07-f5fa7d7f0ecd"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/eb82ca4a-a5e4-4591-8c07-f5fa7d7f0ecd"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/hope-sisters-your-new-romm-mates-furry-327ac26fd9fd"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/2f568db7-28ef-4b4a-b477-9f5415eb541e_character-hope-sisters-your-new-roommates-furry"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"umemi":{
+      "name":"Umemi",
+      "tags":["woman","human","oc","earth","modern"],
+      "img":"Umemi.webp",
+      "tagline":"your new girlfriend",
+      "description":"Umemi is a cook arrived from Japan to work at her sempai's restaurant.",
+      "date": "2024-10-03",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/1773ede6-72c4-48d3-ab8f-5a0705105bc1"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/1773ede6-72c4-48d3-ab8f-5a0705105bc1"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/umemi-a-cook-from-japan-d7a264ebd884"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/93d94313-110d-4c90-90bd-3a15816d6137_character-a-first-date-with-umemi"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"umemi-f":{
+      "name":"Umemi (F)",
+      "tags":["woman","anthro","oc","earth","modern"],
+      "img":"UmemiF.webp",
+      "tagline":"your new girlfriend",
+      "description":"Umemi is a cook arrived from Japan to work at her sempai's restaurant.",
+      "date": "2024-10-03",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/3bc314d1-9555-40af-9b9f-b8d259f28b68"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/3bc314d1-9555-40af-9b9f-b8d259f28b68"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/umemi-your-new-furry-girlfriend-49463e81a294"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/927bf614-b055-4765-8a2a-2c25d30d80b0_character-a-first-date-with-umemi-furry"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"llys":{
+      "name":"Llys",
+      "tags":["woman","human","oc","earth","modern"],
+      "img":"Llys.webp",
+      "tagline":"a former bully shaken by life",
+      "description":"It's the end of the afternoon and her shift has ended. She is relaxing at the Waf-Waffle cafeteria terrace when you approach her.",
+      "date": "2024-10-03",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/51d63370-0bea-4ca2-9f99-f5a0af03c26c"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/51d63370-0bea-4ca2-9f99-f5a0af03c26c"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/llys-a-former-bully-shaken-by-life-968f40d84e4b"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/883784be-b8cc-4c02-a87b-1994b3f7503d_character-llys-a-former-bully-shaken-by-life"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"llys-f":{
+      "name":"Llys (F)",
+      "tags":["woman","anthro","oc","earth","modern"],
+      "img":"LlysF.webp",
+      "tagline":"a former bully shaken by life",
+      "description":"It's the end of the afternoon and her shift has ended. She is relaxing at the Waf-Waffle cafeteria terrace when you approach her.",
+      "date":"2024-10-27",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/a8895850-31fa-48ba-a9bc-2b9e70668641"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/a8895850-31fa-48ba-a9bc-2b9e70668641"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/llys-a-former-bully-shaken-by-life-1cb450615b46"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/dab6083b-605a-43dc-a3dc-6ef94137352c_character-llys-a-former-bully-shaken-by-life-furry"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"wfte":{
+      "name":"Wrath from the Earth",
+      "tags":["story","oc","earth","future"],
+      "img":"WftE.webp",
+      "tagline":"The end of your world",
+      "description":"2184 - In a world on the brink of collapse, the gloves are off and nations are at each other's throats. But just as things can't get any worse, Mother Nature unleashes hell on earth, leaving no one unscathed.",
+      "date": "2024-10-07",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/6a813d90-18d8-4c06-9447-9775cb1dbcea"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/6a813d90-18d8-4c06-9447-9775cb1dbcea"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/wrath-from-the-earth-278c53f7cb7d"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/d2d05f61-e419-4025-9a35-5db9b6402d3f_character-wrath-from-the-earth"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"kathy-sylvia":{
+      "name":"Kathy & Sylvia",
+      "tags":["woman","fantasy-r","oc","earth","modern"],
+      "img":"KathySylvia.webp",
+      "tagline":"Invaded by elves & catfolk",
+      "description":"\"Dear citizens, we ask you to remain calm.\" the speaker says \"For some days now, spaceships orbit the Earth. According to the government, two of their spaceships crashed on our planet. Your cooperation is needed to find them, or else…\" The speaker swallows hard, his face as pale as a ghost. Oopsy, seems like your little trip to the wallpaper museum and the horseshoe bay got cancelled !",
+      "date": "2024-10-11",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/abe68bce-b0b5-402e-bf86-34647c56e614"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/abe68bce-b0b5-402e-bf86-34647c56e614"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/kathy-sylvia-invaded-by-elves-catfolk-2f27682fa236"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/37618ee2-abef-4520-b7a5-33e50bdcd741_character-kathy-sylvia-invaded-by-elves-catfolk"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"louvel":{
+      "name":"Louvel",
+      "tags":["man","anthro","oc","other-world","fantasy-s"],
+      "img":"Louvel.webp",
+      "tagline":"Bounty Hunter chasing his own brother",
+      "description":"Louvel chased his brother for five years since he lost control of his Inner Beast and became what his people calls Wild Beast. On a foggy day, you met Louvel by chance in the middle of a forest.",
+      "date": "2024-10-30",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/f1ddc8fb-d351-4718-b807-1234463ba7a9"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/f1ddc8fb-d351-4718-b807-1234463ba7a9"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/louvel-bounty-hunter-chasing-his-own-brother-01219a4ea3a2"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/2f13d794-5eac-4787-9fed-171db5492e7a_character-louvel-bounty-hunter-chasing-his-own-brother"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"levyn":{
+      "name":"Levyn",
+      "tags":["man","anthro","oc","other-world","fantasy-s","nsfw"],
+      "img":"Levyn.webp",
+      "tagline":"A wild wolf on the run",
+      "description":"Levyn has been chased by his brother for five years, since he lost control of his Inner Beast and became what his people calls Wild Beast. You met him by chance while searching for a place to hide from the rain in the middle of a forest.",
+      "date": "2024-10-31",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/6afd6129-cfe7-4a16-b027-b2c7e9b382d4"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/6afd6129-cfe7-4a16-b027-b2c7e9b382d4"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/levyn-wild-werewolf-1bd34370cb71"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/c3bd2a05-1d59-445f-bfdb-fd7590ed90a5_character-levyn-wild-werewolf"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"kaname":{
+      "name":"Kaname",
+      "tags":["man","human","oc","earth","modern"],
+      "img":"Kaname.webp",
+      "tagline":"Your boyfriend has a secret 🤫",
+      "description":"You're are finally in a relationship with Kaname. He is classy and tries to act aloof but he is cute. He officially works as a model, but he has a busy life… Are you curious about it ?",
+      "date": "2025-02-27",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":""
+        },
+        {
+          "website":"moescape",
+          "url":""
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/kaname-your-boyfriend-has-a-secret-28980b237d3b"
+        },
+        {
+          "website":"janitor",
+          "url":""
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    },"roarach":{
+      "name":"Roarach",
+      "tags":["man","anthro","oc","other-world","fantasy-s"],
+      "img":"Roarach.webp",
+      "tagline":"Heir of the Bronze Claw",
+      "description":"The moment your eyes meet, the bond is absolute. You are his mate. He is yours. And he was about to kill you.",
+      "date": "2026-02-25",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/55146548-6ff6-4442-950b-dd46b03ef677"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/55146548-6ff6-4442-950b-dd46b03ef677"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/roarach-heir-of-the-bronze-claw-clan-cfb35116cbe3"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/ba54500f-66d2-4115-9356-3f6b05ec8843_character-roarach-heir-of-the-bronze-claw"
+        },
+        {
+          "website":"mitale",
+          "url":"https://mitale.ai/character/699e812dd2e72ec36b1ebca5"
+        }
+      ]
+    },"ruadach":{
+      "name":"Ruadach",
+      "tags":["man","anthro","oc","other-world","fantasy-s"],
+      "img":"Ruadach.webp",
+      "tagline":"Strategist of Bronze Claw",
+      "description":"The moment your eyes meet, the bond is absolute. You are his mate. He is yours. And he was about to kill you.",
+      "date": "2026-02-28",
+      "links":[
+        {
+          "website":"yodayo",
+          "url":"https://yodayo.com/tavern/characters/c17c5146-78db-4635-9d0b-9728f285ef07"
+        },
+        {
+          "website":"moescape",
+          "url":"https://moescape.ai/tavern/characters/c17c5146-78db-4635-9d0b-9728f285ef07"
+        },
+        {
+          "website":"chub",
+          "url":"https://chub.ai/characters/Danselune/ruadach-495782db24d0"
+        },
+        {
+          "website":"janitor",
+          "url":"https://janitorai.com/characters/e8b62229-e225-4f6c-bdf9-3a0c617d9ea0_character-ruadach-strategist-of-the-bronze-claw"
+        },
+        {
+          "website":"mitale",
+          "url":""
+        }
+      ]
+    }
+  }
+}

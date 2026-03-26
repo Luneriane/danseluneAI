@@ -1,0 +1,121 @@
+#panelContainer{
+  position: fixed;
+  top: 0vh;
+  left: 0vw;
+  z-index: 5;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  backdrop-filter: blur(5px);
+  background-color: var(--colorJ);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#panelContainer.isOpen{
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+  transition: width heigth opacity var(--transition-speed);
+}
+#panelContainer #panel{
+  position: relative;
+  width: 95%;
+  max-height: 95%;
+  overflow: hidden;
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  grid-template-areas: 'title title' 'image image' 'tags prompt';
+  grid-template-columns: auto auto;
+  grid-template-rows: auto 1fr auto;
+}
+#closeIcon{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  padding: var(--smooth);
+  border-radius: 50%;
+  background-color: var(--colorE);
+  border: var(--colorE) var(--border) solid;
+  box-shadow: inset 0 0 6px 0 var(--colorA);
+}
+#closeIcon:hover{
+  border: var(--colorD) var(--border) solid;
+  box-shadow: inset 0 0 6px 0 var(--colorB);
+  cursor: pointer;
+}
+#panelContainer #panel h2{
+  grid-area: title;
+  padding: 10px;
+  border-radius: var(--smooth);
+}
+#panelContainer #panel .panelImg{
+  justify-self: center;
+  grid-area: image;
+  border-radius: var(--smooth);
+  min-height: 0;
+  max-height: 95%;
+  box-shadow: 0 0 6px 0 var(--colorA);
+}
+#panelContainer #panel .tagsList{
+  grid-area: tags;
+  justify-self: end;
+}
+.promptLi{
+  grid-area: prompt;
+  display: flex;
+  justify-self: start;
+  align-items: center;
+}
+.promptLi a{
+  align-self: stretch; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.promptLi span {
+  position: relative;
+  z-index: -1;
+  margin-left: -10px;
+  padding-left: 15px;
+  padding-right: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: var(--colorE) var(--border) solid;
+  background-color: var(--colorA);
+  box-shadow: 0 0 10px 0 var(--colorJ);
+}
+.promptLi a:link {
+  text-decoration: none;
+  color: var(--colorD);
+}
+.promptLi:hover span {
+  border: var(--colorH) solid 2px;
+  color: var(--colorH);
+  background-color: var(--colorE);
+  box-shadow: inset 0 0 6px 0 var(--colorA), 0 0 10px 0 var(--colorA);
+}
+.promptLi a:active {
+  text-decoration: none;
+  color: var(--colorD);
+}
+.promptLi a:visited {
+  color: var(--colorD);
+}
+
+.promptLi img{
+  padding: var(--smooth);
+  height: 30px;
+  border-radius: 50%;
+  border: var(--colorA) var(--border) solid;
+  background-color: var(--colorE);
+  box-shadow: 0 0 10px 0 var(--colorJ);
+}
+.promptLi:hover img{
+  border: var(--colorH) var(--border) solid;
+  box-shadow: inset 0 0 6px 0 var(--colorA), 0 0 10px 0 var(--colorA);
+}

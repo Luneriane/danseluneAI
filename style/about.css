@@ -1,0 +1,50 @@
+#about{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+#portrait{
+  width: 40%;
+  min-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#portrait img{
+  width: 100%;
+  max-width: 480px;
+  min-width: 400px;
+  margin-top: 50px;
+  box-shadow: 0 0 30px 10px #0A0A0A;
+}
+#portraitPanel{
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 2%;
+}
+#about h2{
+  padding: 10px 0 8px;
+}
+#about h3{
+  padding: 10px 20px 8px;
+  width: 100%;
+  text-align: left;
+}
+#portraitPanel .ps{
+  width: 100%;
+  font-size: 14px;
+  color: var(--colorF);
+  padding: 6px;
+  margin: 8px;
+  border-top: var(--colorC) solid 1px;
+}
+#portraitPanel .ps.isNSFW{
+  color: var(--colorI);
+}
+
+#profiles{
+  margin: 14px 1px 1px;
+}
