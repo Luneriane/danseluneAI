@@ -283,7 +283,7 @@
       "style":"center top"
     },"apartment":{
       "name":"Apartment",
-      "img":"apartment.webp",
+      "img":"Apartment.webp",
       "tags":["scenery","city","interior"],
       "prompt":"https://civitai.com/posts/6673004",
       "date":"2024-04-26",
@@ -311,7 +311,7 @@
       "style":"right center"
     },"fantasy-tower":{
       "name":"Fantasy Tower",
-      "img":"fantasyTower.webp",
+      "img":"FantasyTower.webp",
       "tags":["scenery","city"],
       "prompt":"https://civitai.com/posts/6584156",
       "date":"2024-05-16",
