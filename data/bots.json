@@ -2,19 +2,19 @@
   "websites":{
     "yodayo":{
       "name":"Yodayo",
-      "icon":"yodayo.png"
+      "icon":"Yodayo.png"
     },"moescape":{
       "name":"Moescape",
-      "icon":"moescape.png"
+      "icon":"Moescape.png"
     },"chub":{
       "name":"CHub",
-      "icon":"chub.png"
+      "icon":"CHub.png"
     },"janitor":{
       "name":"Janitor",
-      "icon":"janitorW.svg"
+      "icon":"JanitorW.svg"
     },"mitale":{
       "name":"Mitale",
-      "icon":"mitale.png"
+      "icon":"Mitale.png"
     }
   },
   "tags":{
